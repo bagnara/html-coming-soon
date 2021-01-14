@@ -12,9 +12,11 @@
 
 
 html, body {
-    padding: 0px;
+    background-color: #eff7e1;
     margin: 0px;
-    color: rgb(0, 0, 0);
+    color: #214151;
+    height: 100%;
+    padding: 0px;
 }
 
 a {
@@ -79,6 +81,12 @@ a {
     height: 25px;
     text-align: center;
     line-height: 25px;
+    position: relative;
+    top: 0px;
+}
+
+.social li a:hover {
+    top: -5px;
 }
 
 
@@ -88,90 +96,4 @@ a {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-}
-
-
-
-.fa-facebook:hover {
-    color: #3B5998;
-}
-  
-.fa-twitter:hover {
-    color: #55ACEE;
-}
-  
-.fa-google:hover {
-    color: #dd4b39;
-}
-  
-.fa-linkedin:hover {
-    color: #007bb5;
-}
-  
-.fa-youtube:hover {
-    color: #bb0000;
-}
-
-.fa-instagram:hover {
-    color: #125688;
-}
-
-.fa-pinterest:hover {
-    color: #cb2027;
-}
-
-.fa-snapchat-ghost:hover {
-    color: #fffc00;
-}
-
-.fa-skype:hover {
-    color: #00aff0;
-}
-
-.fa-android:hover {
-    color: #a4c639;
-}
-
-.fa-dribbble:hover {
-    color: #ea4c89;
-}
-
-.fa-vimeo:hover {
-    color: #45bbff;
-}
-
-.fa-tumblr:hover {
-    color: #2c4762;
-}
-
-.fa-vine:hover {
-    color: #00b489;
-}
-
-.fa-foursquare:hover {
-    color: #45bbff;
-}
-
-.fa-stumbleupon:hover {
-    color: #eb4924;
-}
-
-.fa-flickr:hover {
-    color: #f40083;
-}
-
-.fa-yahoo:hover {
-    color: #430297;
-}
-
-.fa-soundcloud:hover {
-    color: #ff5500;
-}
-
-.fa-reddit:hover {
-    color: #ff5700;
-}
-
-.fa-rss:hover {
-    color: #ff6600;
 }

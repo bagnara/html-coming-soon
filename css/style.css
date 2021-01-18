@@ -27,7 +27,7 @@ a {
 
 
 .container {
-    max-width: 1170px;
+    width: 1170px;
     margin: 0px auto;
 }
 
@@ -96,4 +96,57 @@ a {
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+}
+
+
+
+@media (max-width: 1170px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .jumbotron .title {
+        font-size: 80px;
+    }
+    
+    .jumbotron .description {
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+
+    .jumbotron .title {
+        font-size: 60px;
+    }
+    
+    .jumbotron .description {
+        font-size: 15px;
+    }
+
+    .social li a {
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+    }
+    
+}
+
+@media (max-width: 468px) {
+
+    .jumbotron .title {
+        font-size: 35px;
+    }
+    
+    .jumbotron .description {
+        margin: 0px 25px;
+    }
+
+    .jumbotron .description br {
+        display: none;
+    }
+    
 }
